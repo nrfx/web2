@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.body {
+    font-family: 'Rubik';
+}
+
+.navbar {
+    margin-top: 30px;
+    margin-bottom: 98px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    margin-right: 121px;
+}
+
+.navbar-nav .nav-item {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B2B2B;
+    margin-right: 56px;
+
+}
+
+.btn-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 101px;
+    height: 36px;
+    border: 2px solid #F53838;
+    border-radius: 20px;
+    color: #F53838;
+    background: transparent;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-signup:hover {
+    background: #F53838;
+    color: #fff;
+}
+
+.section-intro .btn-getstarted {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 193px;
+    height: 54px;
+    background: #F53838;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-top: 58px;
+}
+
+.section-intro .intro-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-intro .intro-tagline-text {
+    width: 506px;
+    height: 118px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    color: #2B2B2B;
+}
+
+.section-intro .intro-comment {
+    width: 553px;
+    height: 36px;
+    margin-top: 42px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A5A5A;
+}
+
+.section-intro .intro-text {
+    flex: 1;
+}
+
+.section-intro .intro-image {
+    flex: 1;
+    text-align: right;
+}
+
+.section-intro .intro-image img {
+    max-width: 100%;
+}
