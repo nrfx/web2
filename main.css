@@ -2,6 +2,10 @@
 
 .body {
     font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A5A5A;
 }
 
 .navbar {
@@ -130,8 +134,9 @@
 
 .feature-info h3 {
     font-family: 'Rubik';
-    font-weight: 700;
-    font-size: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     color: #2B2B2B;
     margin: 0;
 }
@@ -170,7 +175,6 @@
     display: none;
 }
 
-
 .feature-icon {
     display: flex;
     flex-direction: row;
@@ -187,4 +191,52 @@
     font-size: 25px;
     border-radius: 500px;
 
+}
+
+.section-features {
+    margin-bottom: 60px;
+}
+
+.providing-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 182px;
+    padding-left: 120px;
+    margin-bottom: 75px;
+}
+
+.providing-container .providing-text h2 {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2B2B;
+    margin: 0;
+}
+
+.providing-list {
+    list-style: none;
+    padding: 0;
+}
+
+.providing-list li {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    gap: 21px;
+    color: #2B2B2B;
+    margin-bottom: 21px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.providing-list li::before {
+    content: '\F26A';
+    font-family: 'bootstrap-icons';
+    color: #2BBC28;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
