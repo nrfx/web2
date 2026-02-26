@@ -240,3 +240,139 @@
     left: 0;
     top: 0;
 }
+
+.section-plans .plans-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+    width: 559px;
+    height: 129px;
+    margin-bottom: 21px;
+}
+
+.section-plans .plans-container .plans-tagline-text {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2B2B;
+    margin: 0;
+}
+
+.section-plans .plans-container .plans-comment {
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A5A5A;
+    margin: 0;
+}
+
+.plans-container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 91px;
+}
+
+.plan-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    flex: 1;
+    max-width: 317px;
+    border: 2px solid #D3D3D3;
+    border-radius: 20px;
+    background: #FFFFFF;
+}
+
+.plan-item:last-child {
+    border: 2px solid #F53838;
+    border-radius: 20px;
+}
+
+.plan-item .plan-item-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21px;
+    width: 204px;
+}
+
+.plan-item .plan-features {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-item .plan-item-box h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 55px;
+    margin-top: 21px;
+}
+
+.plan-item .plan-features li {
+
+    margin-bottom: 40px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.plan-item .plan-features li::before {
+    content: '\F26A';
+    font-family: 'bootstrap-icons';
+    color: #2BBC28;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.plan-item .plan-price {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2B2B2B;
+    margin-top: auto;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.plan-item .plan-price span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #646464;
+}
+
+.plan-item .btn-plan-select {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 173px;
+    height: 45px;
+    background: #F53838;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 22px;
+    margin-bottom: 21px;
+    flex-shrink: 0;
+}
