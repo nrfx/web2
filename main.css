@@ -47,6 +47,13 @@
     color: #fff;
 }
 
+.section-intro .container {
+    padding-top: 24px;
+    background-image: url(images/intro-hero.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
 .section-intro .btn-getstarted {
     display: flex;
     flex-direction: row;
@@ -99,13 +106,4 @@
 
 .section-intro .intro-text {
     flex: 1;
-}
-
-.section-intro .intro-image {
-    flex: 1;
-    text-align: right;
-}
-
-.section-intro .intro-image img {
-    max-width: 100%;
 }
