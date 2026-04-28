@@ -131,7 +131,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px;
-    gap: 190px;
+    gap: 95px;
     isolation: isolate;
     width: 820px;
     height: 114px;
@@ -167,21 +167,13 @@ body {
 
     width: 200px;
     height: 114px;
-
-    position: relative;
 }
 
-.feature-item::after {
-    content: '';
-    position: absolute;
-    right: -95px;
-    top: 30%;
+.feature-divider {
+    width: 1px;
     height: 40px;
-    border-right: 1px solid var(--border-divider);
-}
-
-.feature-item:last-child::after {
-    display: none;
+    background-color: var(--border-divider);
+    flex-shrink: 0;
 }
 
 .feature-icon {
@@ -665,14 +657,13 @@ body {
     margin-top: -21px;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 232.5px;
-    padding-right: 232.5px;
 }
 
 .footer-container {
     display: flex;
-    gap: 151px;
-    max-width: 100%;
+    justify-content: space-between;
+    max-width: 956px;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -715,9 +706,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    /* Важно: выравниваем по верхнему краю! */
     gap: 120px;
-    /* Сделал отступы как в макете */
 }
 
 .footer-column h3 {
